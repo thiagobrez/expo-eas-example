@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70ae1b27-d337-4276-a81a-3361f224f3b9"
+      }
+    },
+    "owner": "thiagobrez"
   }
 }
