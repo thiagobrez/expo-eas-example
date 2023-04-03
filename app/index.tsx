@@ -35,11 +35,13 @@ export default function HomePage() {
         }}
       />
 
-      <Text>Home Screen</Text>
+      <Text>Home Screen - Over the air updates!</Text>
 
       <TouchableOpacity onPress={goToSecureRoute}>
         <Text>Go to secure route</Text>
       </TouchableOpacity>
+
+      <Link href="/camera">Go to camera</Link>
     </View>
   );
 }
